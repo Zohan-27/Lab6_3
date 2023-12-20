@@ -98,7 +98,7 @@ public class Main {
                 boolean isInteractive = scanner.nextBoolean();
 
                 visualizations[i] = new VisualizationFrame(width, height, backgroundColor, isInteractive,
-                        "Type", true, 1); // Предполагается использование VisualizationFrame
+                        "Type", true, 1);
 
                 System.out.println("\nEnter VisualizationLayer " + (i + 1) + " data:");
                 System.out.print("Layer Name: ");
